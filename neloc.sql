@@ -31,7 +31,7 @@ CREATE TABLE `ex_dwdm_ne_location` (
   `NE Name` text,
   `IP Loopback` text,
   KEY `ix_ex_dwdm_ne_location_index` (`index`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4 COLLATE utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
